@@ -1,6 +1,6 @@
 *.ts linguist-detectable=true
-*.html linguist-detectable=true
 *.js linguist-detectable=true
+*.html linguist-detectable=true
 *.css linguist-detectable=
 *.scss linguist-detectable=true
 *.sass linguist-detectable=true
