@@ -6,5 +6,3 @@
 *.sass linguist-detectable=true
 *.less linguist-detectable=true
 *.sql linguist-detectable=true
-
-
