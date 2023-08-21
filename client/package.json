@@ -46,6 +46,8 @@
   },
   "proxy": "http://localhost:3001",
   "devDependencies": {
+    "less": "^4.2.0",
+    "sass": "^1.66.1",
     "workbox": "0.0.0"
   }
 }

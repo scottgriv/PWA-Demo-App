@@ -1,5 +1,5 @@
 # PWA DB Web App
-A **Progressive Web App (PWA)** demo project that uses React, TypeScript, Node.js, Postgresql, and SASS.
+A **Progressive Web App (PWA)** demo project that uses React, TypeScript, Node.js, Postgresql, and SCSS/SASS/LESS.
 
 ![Demo](docs/images/demo.gif)
 
@@ -21,7 +21,7 @@ I used the following technologies to build this app:
 - TypeScript (JavaScript)
 - Node.js (Backend/Server)
 - Postgresql (Database)
-- SASS (CSS/Styling)
+- SASS/SCSS/LESS (CSS/Styling)
 - Workbox Package (Service Worker)
 - PWA Asset Generator Package (Manifest File)
 - NPM (Package Manager)
