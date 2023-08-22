@@ -25,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,8 +50,10 @@
   "proxy": "http://localhost:3001",
   "devDependencies": {
     "@types/papaparse": "^5.3.7",
+    "gh-pages": "^6.0.0",
     "less": "^4.2.0",
     "sass": "^1.66.1",
     "workbox": "0.0.0"
-  }
+  },
+  "homepage": "https://scottgriv.github.io/pwa-demo_app/"
 }

@@ -16,7 +16,8 @@ const UsersTable: React.FC<{ useCsv: boolean }> = ({ useCsv }) => {
   useEffect(() => {
     if (useCsv) {
       // Load and parse CSV data
-      Papa.parse('/data/database.csv', {
+      Papa.parse(process.env.PUBLIC_URL + '/data/database.csv', {
+
         download: true,
         header: true,
         dynamicTyping: true, // Automatically converts suitable strings to numbers or dates
