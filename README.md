@@ -103,6 +103,13 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
   - Progressive Web App: 100
 - References to the **Lighthouse** Report files are located in the [docs](docs) directory.
 
+### CSV vs. Postgresql Flag
+- By default, I'm parsing the table from a **Comma-separated values (CSV)** file located in the `client/src/data` directory. You can change this to use **Postgresql** by modifying the `client/src/App.tsx` file flag to `false` here: 
+
+```typescript
+ const useCsv = true;
+ ```
+
 ## Resources
 - [**Progressive Web Apps**](https://web.dev/progressive-web-apps/)
 - [**Workbox**](https://developers.google.com/web/tools/workbox/)

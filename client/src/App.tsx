@@ -2,6 +2,9 @@ import React from 'react';
 import UsersTable from './components/UserTable'; // Make sure the path is correct
 
 function App() {
+  
+  const useCsv = true; // Set to true if you want to use the .csv file or true for postgressql [default=true]
+  
   return (
     <div className="App">
       <div className="App-header">
@@ -9,7 +12,7 @@ function App() {
         <p>This is a demo PWA using React, TypeScript, Node.js, Postgresql, and SCSS/SASS/LESS.</p>
       </div>
       <div className="UsersTable">
-        <UsersTable /> {/* Render the UsersTable component here */}
+        <UsersTable useCsv={useCsv} /> {}
       </div>
     </div>
   );
