@@ -3,6 +3,8 @@ A **Progressive Web App (PWA)** demo application that uses React, TypeScript, No
 
 ![Demo](docs/images/demo.gif)
 
+Preview the app on **GitHub Pages** here: [PWA Demo App](https://scottgriv.github.io/pwa-demo_app/)
+
 ## Background
 I wanted to demonstrate how to build a **PWA** that uses a database to store user data locally and syncs with a remote database when online. I also wanted to demonstrate how to use a service worker to cache the app shell and data as well as a manifest file to allow the user to install the app on their device.
 
