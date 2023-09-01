@@ -1,4 +1,4 @@
-# PWA Demo App
+# PWA Demo
 A **Progressive Web App (PWA)** demo that uses React, TypeScript, Node.js, Postgresql, and SCSS/SASS/LESS.
 
 ![Demo](docs/images/demo.gif)
