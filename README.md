@@ -171,11 +171,13 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
 ## Resources
 
 ### SPA, MPA, PWA Concepts
+
 - [**Progressive Web Apps**](https://web.dev/progressive-web-apps/)
 - [**Single-Page Applications vs Multi-Page Applications: The Battle of the Web Apps**](https://themindstudios.com/blog/spa-vs-mpa/)
 - [**Single Page Application (SPA) vs Multi Page Application (MPA): Which Is The Best?**](https://cleancommit.io/blog/spa-vs-mpa-which-is-the-king/)
 
 ### Technologies Referenced
+
 - [**Service Workers**](https://developers.google.com/web/fundamentals/primers/service-workers)
 - [**Workbox**](https://developers.google.com/web/tools/workbox/)
 - [**PWA Asset Generator**](https://github.com/elegantapp/pwa-asset-generator)
@@ -187,13 +189,11 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
 - [**React**](https://reactjs.org/)
 - [**TypeScript**](https://www.typescriptlang.org/)
 - [**Node.js**](https://nodejs.org/en/)
-- [**SCSS**](https://sass-lang.com/)
+- [**SCSS**](https://blog.logrocket.com/the-definitive-guide-to-scss/)
 - [**SASS**](https://sass-lang.com/)
 - [**LESS**](http://lesscss.org/)
 - [**NPM**](https://www.npmjs.com/)
 - [**Webpack**](https://webpack.js.org/)
-
-
 
 **Happy Coding!**
 
