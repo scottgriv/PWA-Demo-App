@@ -1,9 +1,9 @@
 # PWA Demo App
-A **Progressive Web App (PWA)** demo application that uses React, TypeScript, Node.js, Postgresql, and SCSS/SASS/LESS.
+A **Progressive Web App (PWA)** demo that uses React, TypeScript, Node.js, Postgresql, and SCSS/SASS/LESS.
 
 ![Demo](docs/images/demo.gif)
 
-Preview the app on **GitHub Pages** here: **[PWA Demo App](https://scottgriv.github.io/pwa-demo_app/)**
+Preview the app on **GitHub Pages** here: **[PWA Demo](https://scottgriv.github.io/pwa-demo_app/)**
 
 ***Note:*** *The Lighthouse report will not accurately reflect the scores of the app when hosted on **GitHub Pages**. I suggest running the app locally to see the perfect/accurate scores.*
 
