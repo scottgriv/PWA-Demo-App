@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/service-worker.js').then(registration => {
+      navigator.serviceWorker.register('https://scottgriv.github.io/pwa-demo_app/service-worker.js').then(registration => {
           console.log('SW registered: ', registration);
       }).catch(registrationError => {
           console.log('SW registration failed: ', registrationError);

@@ -32,7 +32,7 @@
       "purpose": "maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://scottgriv.github.io/pwa-demo_app",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
