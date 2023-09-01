@@ -170,9 +170,10 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
 
 ## Resources
 
-### PWA Concepts
+### SPA, MPA, PWA Concepts
 - [**Progressive Web Apps**](https://web.dev/progressive-web-apps/)
-- [**SPA vs. MPA vs. PWA**](https://cleancommit.io/blog/spa-vs-mpa-which-is-the-king/)
+- [**Single-Page Applications vs Multi-Page Applications: The Battle of the Web Apps**](https://themindstudios.com/blog/spa-vs-mpa/)
+- [**Single Page Application (SPA) vs Multi Page Application (MPA): Which Is The Best?**](https://cleancommit.io/blog/spa-vs-mpa-which-is-the-king/)
 
 ### Technologies Referenced
 - [**Service Workers**](https://developers.google.com/web/fundamentals/primers/service-workers)
