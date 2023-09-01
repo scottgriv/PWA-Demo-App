@@ -12,7 +12,7 @@ I wanted to demonstrate how to build a **PWA** that uses a database to store use
 To turn your website into a **PWA**, you'll need the following qualifications:
 - **HTTPS** - Your site must be served over `HTTPS`. This is a requirement for service workers. If you don't have a certificate, you can use [Let's Encrypt](https://letsencrypt.org/). <br>
 *Note: If you're deploying locally, you can still achieve a **PWA** by using `localhost`, but you won't be able to use a service worker or push notifications and it is strongly recommended that you use `HTTPS`. for a production deployment.*
-- **Service Worker** - A service worker is a script that runs in the background and allows you to control how your app handles network requests and cache data. It also allows you to send push notifications to the user (see instructions below for more details).
+- **Service Worker** - A [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers)) is a script that runs in the background and allows you to control how your app handles network requests and cache data. It also allows you to send push notifications to the user (see instructions below for more details).
 - **Manifest File** - A manifest file is a `JSON` file that contains metadata about your app. It allows you to specify the name of your app, the icons that will be used when the app is installed on a device, the background color of the splash screen, and more (see instructions below for more details).
 - **App Shell** - The app shell is the minimal `HTML`, `CSS`, and `JavaScript` required to power the user interface of your app. It is the first thing that is cached by the service worker and is used to provide a fast, reliable, and engaging experience for the user.
 - **Offline Data Storage** - A **PWA** must be able to store data locally on the user's device. This allows the user to continue using the app when they are offline. When the user is online, the data should be synced with a remote database.
@@ -169,12 +169,30 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
 - If you're unfamiliar with deploying a static site to **GitHub Pages**, you can read more about it here: [**GitHub Pages**](https://pages.github.com/).
 
 ## Resources
+
+### PWA Concepts
 - [**Progressive Web Apps**](https://web.dev/progressive-web-apps/)
+- [**SPA vs. MPA vs. PWA**](https://cleancommit.io/blog/spa-vs-mpa-which-is-the-king/)
+
+### Technologies Referenced
+- [**Service Workers**](https://developers.google.com/web/fundamentals/primers/service-workers)
 - [**Workbox**](https://developers.google.com/web/tools/workbox/)
 - [**PWA Asset Generator**](https://github.com/elegantapp/pwa-asset-generator)
 - [**Push Notifications**](https://developers.google.com/web/fundamentals/push-notifications)
 - [**Lighthouse**](https://developers.google.com/web/tools/lighthouse)
 - [**GitHub Pages**](https://pages.github.com/)
+- [**Let's Encrypt**](https://letsencrypt.org/)
+- [**Postgresql**](https://www.postgresql.org/)
+- [**React**](https://reactjs.org/)
+- [**TypeScript**](https://www.typescriptlang.org/)
+- [**Node.js**](https://nodejs.org/en/)
+- [**SCSS**](https://sass-lang.com/)
+- [**SASS**](https://sass-lang.com/)
+- [**LESS**](http://lesscss.org/)
+- [**NPM**](https://www.npmjs.com/)
+- [**Webpack**](https://webpack.js.org/)
+
+
 
 **Happy Coding!**
 
