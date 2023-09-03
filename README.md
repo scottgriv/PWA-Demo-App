@@ -161,7 +161,7 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
       "start_url": "/{your_repository_name}/",
       ```
 
-- Then `cd client` from the root directory and run the following command to deploy to **GitHub Pages**:
+- Then `cd client/public` from the root directory and run the following command to deploy to **GitHub Pages**:
 
   ```bash
   npm run deploy
