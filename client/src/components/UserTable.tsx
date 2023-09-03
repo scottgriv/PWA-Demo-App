@@ -7,7 +7,7 @@ interface User {
   first_name: string;
   last_name: string;
   email: string;
-  created_at: Date | string; // Modified to accept Date or string
+  created_at: string;
 }
 
 const UsersTable: React.FC<{ useCsv: boolean }> = ({ useCsv }) => {
@@ -28,8 +28,8 @@ const UsersTable: React.FC<{ useCsv: boolean }> = ({ useCsv }) => {
               id: item.ID,
               first_name: item["First Name"],
               last_name: item["Last Name"],
-              email: item.Email,
-              created_at: new Date(item["Created At"])
+              email: item["Email"],
+              created_at: item["Created At"]
             }));
             setUsers(parsedUsers);
           }
@@ -66,7 +66,7 @@ const UsersTable: React.FC<{ useCsv: boolean }> = ({ useCsv }) => {
             <td>{user.first_name}</td>
             <td>{user.last_name}</td>
             <td>{user.email}</td>
-            <td>{user.created_at instanceof Date ? new Date(user.created_at).toLocaleString() : user.created_at}</td>
+            <td>{user.created_at}</td>
           </tr>
         ))}
       </tbody>
