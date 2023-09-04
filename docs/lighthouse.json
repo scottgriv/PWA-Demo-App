@@ -3847,7 +3847,7 @@
             "npm": "core-js"
           },
           {
-            "name": "Create React App",
+            "name": "Create PWA Sample",
             "npm": "react-scripts"
           }
         ],
