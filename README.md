@@ -66,7 +66,8 @@ I wanted to demonstrate how to build a **PWA** that uses a database to store use
 
 To turn your website into a **PWA**, you'll need the following qualifications:
 - **HTTPS** - Your site must be served over `HTTPS`. This is a requirement for service workers. If you don't have a certificate, you can use [Let's Encrypt](https://letsencrypt.org/). <br>
-*Note: If you're deploying locally, you can still achieve a **PWA** by using `localhost`, but you won't be able to use a service worker or push notifications and it is strongly recommended that you use `HTTPS`. for a production deployment.*
+> [!NOTE]
+> If you're deploying locally, you can still achieve a **PWA** by using `localhost`, but you won't be able to use a service worker or push notifications and it is strongly recommended that you use `HTTPS` for a production deployment.
 - **Service Worker** - A [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers)) is a script that runs in the background and allows you to control how your app handles network requests and cache data. It also allows you to send push notifications to the user (see instructions below for more details).
 - **Manifest File** - A manifest file is a `JSON` file that contains metadata about your app. It allows you to specify the name of your app, the icons that will be used when the app is installed on a device, the background color of the splash screen, and more (see instructions below for more details).
 - **App Shell** - The app shell is the minimal `HTML`, `CSS`, and `JavaScript` required to power the user interface of your app. It is the first thing that is cached by the service worker and is used to provide a fast, reliable, and engaging experience for the user.
@@ -125,7 +126,9 @@ npx workbox generateSW workbox-config.js
 ```bash
 npm install -g pwa-asset-generator
 ```
-- Then create a logo.png file in the root directory of your project. The logo should be at least 512x512 pixels. <br> *Note: The logo should be square and have a transparent background*.
+- Then create a logo.png file in the root directory of your project. The logo should be at least 512x512 pixels. <br> 
+> [!TIP]
+> The logo should be square and have a transparent background.
 - Then run (*Assuming you are in the directory your logo file is in*):
 ```bash
 npx pwa-asset-generator logo.png icons
