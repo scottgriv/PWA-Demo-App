@@ -10,6 +10,7 @@
     <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-18.2.0-0D6D8C?style=for-the-badge&logo=react" alt="React Badge" /></a>
     <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/Typescript-5.1.6-3178C6?style=for-the-badge&logo=typescript" alt="Typescript Badge" /></a>
     <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/Postgresql-16.1-6598C2?style=for-the-badge&logo=postgresql" alt="Postgresql Badge" /></a>
+    <br>
     <a href="https://nodejs.org/en/)"><img src="https://img.shields.io/badge/Node.js-18.18.2-036E02?style=for-the-badge&logo=node.js" alt="Node.js Badge" /></a>
     <a href="http://lesscss.org/"><img src="https://img.shields.io/badge/Less-4.2.0-1D355D?style=for-the-badge&logo=less" alt="Less Badge" /></a>
     <a href="https://sass-lang.com/"><img src="https://img.shields.io/badge/Sass-1.58.1-BF4080?style=for-the-badge&logo=sass" alt="Sass Badge" /></a>
