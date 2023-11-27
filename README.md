@@ -30,7 +30,7 @@ A **Progressive Web App (PWA)** demo that uses React, TypeScript, Node.js, Postg
 
 <div align="center">
     <a href="https://scottgriv.github.io/pwa-demo_app/" target="_blank">
-        <img src="./docs/images/demo.png" style="width: 75%;"/>
+        <img src="./docs/images/demo.gif" style="width: 75%;"/>
     </a>
     <br>
     <i>Application Preview</i>
