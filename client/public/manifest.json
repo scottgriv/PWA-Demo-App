@@ -3,12 +3,22 @@
   "name": "A Progressive Web App (PWA) demo that uses React, TypeScript, Node.js, Postgresql, and Scss/Sass/Less.",
   "icons": [
     {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
       "src": "icons/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "icons/logo/manifest-icon-192.maskable.png",
+      "src": "icons/manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
