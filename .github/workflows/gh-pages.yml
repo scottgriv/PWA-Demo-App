@@ -16,17 +16,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
+      
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18' # Ensure compatibility with your project
+          node-version: '18'
 
       - name: Install Dependencies
         run: npm install
+        working-directory: ./client  # Specify the directory where package.json is located
 
       - name: Build
-        run: npm run build # Compiles TypeScript, SCSS to CSS, and produces a production build
+        run: npm run build
+        working-directory: ./client  # Use the same directory for build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -34,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build # Make sure this matches your project's build output directory
+          path: client/build  # Adjust according to your project's build output directory within the client folder
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
