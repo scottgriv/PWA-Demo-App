@@ -98,18 +98,24 @@ I used the following technologies to build this app:
 1. Install Postgresql and create a database named `pwa_db_web_app`.
 - Use the `database.sql` file to create the tables and insert the data.
 2. Change your directory to the project directory and run the following commands:
-- Start the server:
+
+- Install `npm` if you haven't already:
 ```bash
-cd server
 npm install
-npm start
 ```
-- Start the client:
+
+- Start the client (frontend):
 ```bash
 cd client
-npm install
 npm start
 ```
+
+- Start the server (if using a database):
+```bash
+cd server
+npm start
+```
+
 3. Open your browser and navigate to http://localhost:3000/pwa-demo_app to view the application.
 4. Open [Lighthouse](#generate-a-lighthouse-report) in Chrome to generate your PWA report.
 

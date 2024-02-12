@@ -10,7 +10,7 @@ function App() {
       <div className="App-header">
         <div className="logo-title">
           <a href="https://en.wikipedia.org/wiki/Progressive_web_app" target="_blank" rel="noreferrer">
-            <img src={`${process.env.PUBLIC_URL}/icons/logo512.png`} alt="Logo" className="App-logo" />
+            <img src={`${process.env.PUBLIC_URL}/icons/logo.png`} alt="Logo" className="App-logo" />
           </a>
           <h1>PWA Demo Application</h1>
         </div>
