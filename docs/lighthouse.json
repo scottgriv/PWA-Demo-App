@@ -393,7 +393,7 @@
         "items": [
           {
             "failures": [],
-            "themeColor": "#000000",
+            "themeColor": "#0096FE",
             "isParseFailure": false,
             "hasStartUrl": true,
             "hasIconsAtLeast144px": true,
