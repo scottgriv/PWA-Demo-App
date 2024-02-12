@@ -1,11 +1,11 @@
 .App {
-  text-align: center;
-
   @media (max-width: 768px) {
     td, th {
       font-size: 0.8rem;
     }
   }
+  
+  text-align: center;
 
   .App-header {
     background-color: #282c34;
@@ -15,8 +15,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 20vh;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .App-logo {
+    margin-right: 20px;
+    height: 60px;
   }
 
   .UsersTable {
@@ -43,6 +55,35 @@
       tr:nth-child(even) {
         background-color: #f5f5f5;
       }
+    }
+  }
+
+  a {
+    color: #00b6ff;
+    text-decoration: none;
+
+    &:visited {
+      color: #00b6ff;
+      text-decoration: none;
+    }
+
+    &:hover {
+      color: #00b6ff;
+      text-decoration: underline;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+
+  a {
+    color: #0096FE;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
     }
   }
 }

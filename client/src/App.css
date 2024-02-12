@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .App td,
+  .App th {
+    font-size: 0.8rem;
+  }
+}
+.App .App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.App .logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.App .App-logo {
+  margin-right: 20px;
+  height: 60px;
+}
+.App .UsersTable {
+  overflow-x: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.App .UsersTable table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.App .UsersTable table th,
+.App .UsersTable table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.App .UsersTable table th {
+  background-color: #f0f0f0;
+}
+.App .UsersTable table tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+.App a {
+  color: #00b6ff;
+  text-decoration: none;
+}
+.App a:visited {
+  color: #00b6ff;
+  text-decoration: none;
+}
+.App a:hover {
+  color: #00b6ff;
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+footer a {
+  color: #0096FE;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}

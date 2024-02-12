@@ -13,12 +13,26 @@
     padding: 20px;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Keep it as column to stack items vertically */
     align-items: center;
     justify-content: center;
-    height: 20vh;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
   }
+  
+  /* Additional wrapper for logo and title for horizontal alignment */
+  .logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ensures it takes full width for centering */
+  }
+  
+  .App-logo {
+    margin-right: 20px; /* Adjust spacing between logo and title */
+    height: 60px; /* Adjust based on the size of your logo */
+  }
+  
 
   .UsersTable {
     overflow-x: auto;
@@ -46,4 +60,34 @@
       }
     }
   }
+
+  a {
+    color: #00b6ff;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #00b6ff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #00b6ff;
+    text-decoration: underline;
+  }
+
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #0096FE;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }

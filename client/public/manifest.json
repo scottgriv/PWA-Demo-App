@@ -1,6 +1,6 @@
 {
   "short_name": "PWA Demo",
-  "name": "Create PWA Sample",
+  "name": "A Progressive Web App (PWA) demo that uses React, TypeScript, Node.js, Postgresql, and Scss/Sass/Less.",
   "icons": [
     {
       "src": "icons/favicon.ico",
@@ -34,6 +34,6 @@
   ],
   "start_url": "/pwa-demo_app/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0096FE",
+  "background_color": "#0096FE"
 }

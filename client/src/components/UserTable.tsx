@@ -1,6 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import Papa from 'papaparse';
+
+// Scss Styling:
 import '../App.scss';
+
+// Sass Styling:
+// import '../App.scss';
+
+//Less Styling:
+//import '../App.less';
+//import '../App.css'
 
 interface User {
   id: number;

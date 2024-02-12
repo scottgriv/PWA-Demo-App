@@ -1,6 +1,7 @@
 <!-- Begin README -->
 
-<div align="center">
+<di
+v align="center">
     <a href="https://scottgriv.github.io/pwa-demo_app/" target="_blank">
         <img src="./docs/images/icon.png" width="200" height="200"/>
     </a>
@@ -51,6 +52,7 @@ A **Progressive Web App (PWA)** demo that uses React, TypeScript, Node.js, Postg
   - [Push Notifications (Optional)](#push-notifications-optional)
   - [Generate a Lighthouse Report](#generate-a-lighthouse-report)
   - [CSV vs. Postgresql Flag](#csv-vs-postgresql-flag)
+  - [Less CSS Preprocessor](#less-css-preprocessor)
   - [Local Deployment vs. GitHub Pages](#local-deployment-vs-github-pages)
 - [Resources](#resources)
   - [SPA, MPA, PWA Concepts](#spa-mpa-pwa-concepts)
@@ -86,6 +88,11 @@ I used the following technologies to build this app:
 - PWA Asset Generator Package (Manifest File)
 - NPM (Package Manager)
 - Webpack (Module Bundler)
+
+> [!NOTE]
+> By default, the application uses `client/src/components/App.scss` to style the application.
+> The `App.sass` and `App.css` (compiled from Less) can be used as well, they're interchangable.
+> Simply uncomment out the line for the CSS Preprocessor you want to use in the `client/src/App.tsx` file.
 
 ## Getting Started
 
@@ -172,11 +179,23 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
 
 ### CSV vs. Postgresql Flag
 
-- By default, I'm parsing the table from a **Comma-separated values (CSV)** file located in the `client/src/data` directory. You can change this to use **Postgresql** by modifying the `client/src/App.tsx` file flag to `false` here: 
+- By default, I'm parsing the table from a **Comma-separated values (CSV)** file located in the `client/src/data` directory for hosting purposes. You can change this to use **Postgresql** by modifying the `client/src/App.tsx` file flag to `false` here: 
 
 ```typescript
  const useCsv = true;
  ```
+
+ ### Less CSS Preprocessor
+
+ - To use Less, install the package via npm:
+ ```bash
+ npm install -g less
+```
+- Then, change your directory to the `src` folder where the `App.less` file exists and run the following command to generate the `.css` file:
+```bash
+lessc App.less App.css
+```
+- Be sure to uncomment out the `.css` import in the `App.tsx` file.
 
  ### Local Deployment vs. GitHub Pages
  
@@ -232,6 +251,7 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
   ```bash
   npm run deploy
   ```
+
 - If you're unfamiliar with deploying a static site to **GitHub Pages**, you can read more about it here: [**GitHub Pages**](https://pages.github.com/).
 
 ## Resources
@@ -239,6 +259,7 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
 ### SPA, MPA, PWA Concepts
 
 - [**Progressive Web Apps**](https://web.dev/progressive-web-apps/)
+- [**Wikipedia - Progressive Web App**](https://en.wikipedia.org/wiki/Progressive_web_app)
 - [**Single-Page Applications vs Multi-Page Applications: The Battle of the Web Apps**](https://themindstudios.com/blog/spa-vs-mpa/)
 - [**Single Page Application (SPA) vs Multi Page Application (MPA): Which Is The Best?**](https://cleancommit.io/blog/spa-vs-mpa-which-is-the-king/)
 
