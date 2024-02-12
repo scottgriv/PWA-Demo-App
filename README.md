@@ -110,7 +110,8 @@ cd client
 npm install
 npm start
 ```
-3. Open your browser and navigate to http://localhost:3000.
+3. Open your browser and navigate to http://localhost:3000/pwa-demo_app to view the application.
+4. Open [Lighthouse](#generate-a-lighthouse-report) in Chrome to generate your PWA report.
 
 ## Notes
 
@@ -198,7 +199,7 @@ lessc App.less App.css
 
  ### Local Deployment vs. GitHub Pages
  
-  - By default, I'm deploying the app to **GitHub Pages**. You can change this to deploy the app locally or to your own **GitHub Pages** by modifying the following files:
+  - By default, I'm deploying the app to **GitHub Pages**. You can change this to deploy the app locally without using the repository name `pwa-demo_app` or to your own **GitHub Pages** by modifying the following files:
   
   1.  `/client/package.json` <br>
 
