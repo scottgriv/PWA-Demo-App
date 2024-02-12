@@ -90,9 +90,9 @@ I used the following technologies to build this app:
 - Webpack (Module Bundler)
 
 > [!NOTE]
-> By default, the application uses `client/src/components/App.scss` to style the application.
+> By default, the application uses `client/src/App.scss` to style the application.
 > The `App.sass` and `App.css` (compiled from Less) can be used as well, they're interchangable.
-> Simply uncomment out the line for the CSS Preprocessor you want to use in the `client/src/App.tsx` file.
+> Simply uncomment out the line for the CSS Preprocessor you want to use in the `client/src/components/UserTable.tsx` file.
 
 ## Getting Started
 
@@ -195,7 +195,7 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
 ```bash
 lessc App.less App.css
 ```
-- Be sure to uncomment out the `.css` import in the `App.tsx` file.
+- Be sure to uncomment out the `.css` import in the `client/src/components/UserTable.tsx` file.
 
  ### Local Deployment vs. GitHub Pages
  
