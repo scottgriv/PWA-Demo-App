@@ -1,7 +1,6 @@
 <!-- Begin README -->
 
-<di
-v align="center">
+<div align="center">
     <a href="https://scottgriv.github.io/pwa-demo_app/" target="_blank">
         <img src="./docs/images/icon.png" width="200" height="200"/>
     </a>
