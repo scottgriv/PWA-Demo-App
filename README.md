@@ -1,7 +1,7 @@
 <!-- Begin README -->
 
 <div align="center">
-    <a href="https://scottgriv.github.io/pwa-demo_app/" target="_blank">
+    <a href="https://scottgriv.github.io/PWA-Demo-App" target="_blank">
         <img src="./docs/images/icon.png" width="200" height="200"/>
     </a>
 </div>
@@ -19,7 +19,7 @@
     <a href="mailto:scott.grivner@gmail.com"><img src="https://img.shields.io/badge/gmail-contact_me-EA4335?style=for-the-badge&logo=gmail" alt="Email Badge" /></a>
     <a href="https://www.buymeacoffee.com/scottgriv"><img src="https://img.shields.io/badge/buy_me_a_coffee-support_me-FFDD00?style=for-the-badge&logo=buymeacoffee&color=FFDD00" alt="BuyMeACoffee Badge" /></a>
     <br>
-    <a href="https://github.com/scottgriv/pwa-demo_app/actions/workflows/gh-pages.yml" target="_blank"><img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/scottgriv/pwa-demo_app/gh-pages.yml?style=for-the-badge&logo=github&label=GitHub%20Pages"></a>
+    <a href="https://github.com/scottgriv/PWA-Demo-App/actions/workflows/gh-pages.yml" target="_blank"><img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/scottgriv/PWA-Demo-App/gh-pages.yml?style=for-the-badge&logo=github&label=GitHub%20Pages"></a>
     <a href="https://prgportfolio.com" target="_blank"><img src="https://img.shields.io/badge/PRG-Silver Project-C0C0C0?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNDMEMwQzAiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Silver" /></a>
 </p>
 
@@ -28,10 +28,11 @@
 <h1 align="center">🖥️ PWA Demo 💻</h1>
 
 A **Progressive Web App (PWA)** demo that uses React, TypeScript, Node.js, Postgresql, and Scss/Sass/Less.
-- View a demo of the project on GitHub Pages **[Here](https://scottgriv.github.io/pwa-demo_app/)**.
+- View a demo of the project on GitHub Pages **[Here](https://scottgriv.github.io/PWA-Demo-App/)**.
+- Learn about PWAs and achieving a perfect Lighthouse score.
 
 <div align="center">
-    <a href="https://scottgriv.github.io/pwa-demo_app/" target="_blank">
+    <a href="https://scottgriv.github.io/PWA-Demo-App/" target="_blank">
         <img src="./docs/images/demo.gif" style="width: 100%;"/>
     </a>
     <br>
@@ -105,6 +106,11 @@ I used the following technologies to build this app:
 npm install
 ```
 
+- Build the application: 
+```bash
+npm run build
+```
+
 - Start the client (frontend):
 ```bash
 cd client
@@ -117,7 +123,7 @@ cd server
 npm start
 ```
 
-3. Open your browser and navigate to http://localhost:3000/pwa-demo_app to view the PWA application.
+3. Open your browser and navigate to http://localhost:3000/PWA-Demo-App to view the PWA application.
 4. Open [Lighthouse](#generate-a-lighthouse-report) in Chrome to generate your PWA report.
 
 ## Notes
@@ -184,6 +190,10 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
   - Progressive Web App: 100
 - References to the **Lighthouse** Report files are located in the [docs](docs) directory.
 
+> [!IMPORTANT]
+> Rempve the BMC Widget and FontAwesome CSS references in the `index.html` file for a perfect Lighthouse Score (see comments in the file on where to remove).
+> I kept these in for production purposes, but loading third-party cookies and unused CSS libraries slows down the application and is generally not a good practice.
+
 ### CSV vs. Postgresql Flag
 
 - By default, I'm parsing the table from a **Comma-separated values (CSV)** file located in the `client/src/data` directory for hosting purposes. You can change this to use **Postgresql** by modifying the `client/src/App.tsx` file flag to `false` here: 
@@ -206,7 +216,7 @@ lessc App.less App.css
 
  ### Local Deployment vs. GitHub Pages
  
-  - By default, I'm deploying the app to **GitHub Pages**. You can change this to deploy the app locally without using the repository name `pwa-demo_app` or to your own **GitHub Pages** by modifying the following files:
+  - By default, I'm deploying the app to **GitHub Pages**. You can change this to deploy the app locally without using the repository name `PWA-Demo-App` or to your own **GitHub Pages** by modifying the following files:
   
   1.  `/client/package.json` <br>
 
@@ -302,7 +312,7 @@ This project is released under the terms of the **MIT License**, which permits u
 **Author:** [Scott Grivner](https://github.com/scottgriv) <br>
 **Email:** [scott.grivner@gmail.com](mailto:scott.grivner@gmail.com) <br>
 **Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
-**Reference:** [Main Branch](https://github.com/scottgriv/pwa-demo_app) <br>
+**Reference:** [Main Branch](https://github.com/scottgriv/PWA-Demo-App) <br>
 
 ---------------
 

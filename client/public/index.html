@@ -11,14 +11,14 @@
 		<meta property="og:title" content="PWA Demo" />
 		<meta property="og:description" content="A Progressive Web App (PWA) demo that uses React, TypeScript, Node.js, Postgresql, and Scss/Sass/Less." />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://scottgriv.github.io/pwa-demo_app" />
+		<meta property="og:url" content="https://scottgriv.github.io/PWA-Demo-App" />
 		<meta property="og:image" content="%PUBLIC_URL%/favicons/apple-touch-icon.png" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 		<link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/icons/apple-touch-icon.png">
     <link rel="icon" href="%PUBLIC_URL%/icons/favicon.ico" />
 		<link rel="shortcut icon" href="%PUBLIC_URL%/icons/apple-touch-icon.png">
     <link rel="mask-icon" href="%PUBLIC_URL%/icons/safari-pinned-tab.svg" color="#0096fe">
-
+    <!-- Remove the below for a perfect Lighthouse score (1/2) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -34,7 +34,8 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   </head>
-  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="scottgriv" data-description="Support me on Buy me a coffee!" data-message="I hope this little tool helps you in your development endeavors, please consider supporting me by buying me a coffee! Thank you!" data-color="#0096FE" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    <!-- Remove the below for a perfect Lighthouse score (2/2) -->
+    <script async data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="scottgriv" data-description="Support me on Buy me a coffee!" data-message="I hope this little tool helps you in your development endeavors, please consider supporting me by buying me a coffee! Thank you!" data-color="#0096FE" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
@@ -48,8 +49,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
-  <footer>
-    <a href="https://github.com/scottgriv/pwa-demo_app" target="_blank" rel="noreferrer">Check out this Repository on GitHub <i class="fa-brands fa-github fa-bounce"></i></a>
-  </footer>   
+  </body> 
 </html>

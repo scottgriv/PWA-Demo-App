@@ -42,7 +42,7 @@
       "purpose": "maskable"
     }
   ],
-  "start_url": "/pwa-demo_app/",
+  "start_url": "/PWA-Demo-App/",
   "display": "standalone",
   "theme_color": "#0096FE",
   "background_color": "#0096FE"
