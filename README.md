@@ -28,8 +28,8 @@
 <h1 align="center">🖥️ PWA Demo 💻</h1>
 
 A **Progressive Web App (PWA)** demo that uses React, TypeScript, Node.js, Postgresql, and Scss/Sass/Less.
-- View a demo of the project on GitHub Pages **[Here](https://scottgriv.github.io/PWA-Demo-App/)**.
 - Learn about PWAs and achieving a perfect Lighthouse score.
+- View a demo of the project on GitHub Pages **[Here](https://scottgriv.github.io/PWA-Demo-App/)**.
 
 <div align="center">
     <a href="https://scottgriv.github.io/PWA-Demo-App/" target="_blank">
