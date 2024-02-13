@@ -116,7 +116,7 @@ cd server
 npm start
 ```
 
-3. Open your browser and navigate to http://localhost:3000/pwa-demo_app to view the application.
+3. Open your browser and navigate to http://localhost:3000/pwa-demo_app to view the PWA application.
 4. Open [Lighthouse](#generate-a-lighthouse-report) in Chrome to generate your PWA report.
 
 ## Notes
