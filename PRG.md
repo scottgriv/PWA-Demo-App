@@ -15,7 +15,7 @@ This file is used to connect this repository to the **PRG** project categorizati
 **Repository Tier:** Silver <br>
 **Technology:** React, TypeScript, Node.js, Postgresql, Sass, Less, Scss, Workbox, Webpack <br>
 **Category:** PWA, Web Application <br>
-**Order:** 9 <br>
+**Order:** 8 <br>
 
 ## Parameters
 
