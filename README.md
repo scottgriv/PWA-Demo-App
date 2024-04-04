@@ -190,7 +190,7 @@ curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Hello World\"
 - References to the **Lighthouse** Report files are located in the [docs](docs) directory.
 
 > [!IMPORTANT]
-> Rempve the BMC Widget and FontAwesome CSS references in the `index.html` file for a perfect Lighthouse Score (see comments in the file on where to remove).
+> Remove the BMC Widget and FontAwesome CSS references in the `index.html` file for a perfect Lighthouse Score (see comments in the file on where to remove).
 > I kept these in for production purposes, but loading third-party cookies and unused CSS libraries slows down the application and is generally not a good practice.
 
 ### CSV vs. Postgresql Flag
