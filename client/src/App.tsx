@@ -22,7 +22,7 @@ function App() {
       </div>
     </div>
     <footer>
-      <a href="https://github.com/scottgriv/PWA-Demo-App" target="_blank" rel="noreferrer">Check out this Repository on GitHub <i className="fa-brands fa-github fa-bounce"></i></a>
+      <a href="https://github.com/scottgriv/PWA-Demo-App" target="_blank" rel="noreferrer">Check out this Project on GitHub! <i className="fa-brands fa-github fa-bounce"></i></a>
     </footer>
     </>
   );
